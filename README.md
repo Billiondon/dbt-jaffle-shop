@@ -1,15 +1,16 @@
-Welcome to your new dbt project!
+#  Cardio-Data Pipeline
+**Médecine Assistante & Analytics Engineering**
 
-### Using the starter project
+ Objectif
+Sécuriser et automatiser la transformation de données cliniques brutes en datasets exploitables pour la recherche et l'IA.
 
-Try running the following commands:
-- dbt run
-- dbt test
+ Stack Technique
+* **Data Warehouse :** Snowflake
+* **Transformation :** dbt (Data Build Tool) via SQL modulaire
+* **Versioning :** GitHub (Workflow de Pull Requests)
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+ Valeur Ajoutée
+1. **Nettoyage Clinique :** Suppression des artéfacts de données et normalisation des unités médicales.
+2. **Fiabilité :** Implémentation de tests d'intégrité automatisés (unicité, non-vacuité).
+3. **Traçabilité :** Audit trail complet des transformations (historique Git).
+4. **Prêt pour l'IA :** Modélisation de tables "Analytics-Ready" pour la recherche (ex: arythmies, cohortes).
