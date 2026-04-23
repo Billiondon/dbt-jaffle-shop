@@ -1,4 +1,4 @@
-Cardio-Data Pipeline
+# 🫀 Cardio-Data Pipeline
 
  Objectif: Automatiser la transformation de données cliniques brutes en datasets exploitables pour la recherche et l'IA, en toute sécurité.
 
